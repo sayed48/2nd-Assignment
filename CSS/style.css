@@ -57,6 +57,7 @@ main{
     text-align: center;
 }
 .collection{
+    background-color: #FFFFFF;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -72,3 +73,12 @@ main{
 /* 2nd section style end */
 
 /* 3rd section style start */
+/* 3rd section style end */
+
+/* footer style start */
+.footer{
+    color: #FFFFFF;
+    background-color: #080125;
+    text-align: center;
+}
+/* footer style end */
