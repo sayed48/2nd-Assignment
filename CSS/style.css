@@ -1,0 +1,74 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common fonts style or utilities */
+body{
+    font-family: font-family: 'Poppins', sans-serif;
+}
+/* 1st section style start */
+main{
+    background-color: #ecdddd;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.products{
+    display: flex;
+}
+.product-introduce{
+    width: 582px;
+    height: 270px;
+    border-radius: 41px;
+}
+.product-introduce h1 span{
+    display: block;
+}
+.product-introduce .link-button{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    text-decoration: none;
+    border-radius: 41px;
+    display: block;
+}
+.product-introduce .link-button{
+    text-align: center;
+    padding-top: 20px;
+}
+.product-introduce .link-button.fas fa-arrow-right{
+    display: inline;
+}
+.product-pic{
+    width: 440px;
+    height: 414px;
+    border-radius: 10px;
+    margin-left: 133px;
+}
+/* 1st section style end */
+
+/* 2nd section style start */
+.collections h2{
+    text-align: center;
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.collection h2{
+    text-align: start;
+}.collection h5{
+    color: #787885;
+}
+.collections a{
+    color: #E02C6D;
+    text-decoration: none;
+}
+/* 2nd section style end */
+
+/* 3rd section style start */
